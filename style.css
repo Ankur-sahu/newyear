@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.first-main{
+   width: 100%;
+   max-width: 400px;
+   border: 2px solid rebeccapurple;
+   position: relative;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   background-image: url('https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNDUwLXBsb3ktMDJjLTAxXzMuanBn.jpg');
+     
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.second-main{
+    width: 100%;
+    max-width: 400px;
+    display: none;
+    border: 2px solid rebeccapurple;
+    position: relative;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center; */
+    /* background-image: url('https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNDUwLXBsb3ktMDJjLTAxXzMuanBn.jpg'); */
+    background-color: rgb(31, 30, 30);
+      
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#frame{
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    
+}
+.second-container{
+    width: 90%;
+    height: auto;
+}
+#quates{
+    width: 80%;
+    height: auto;
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(241, 215, 67);
+}
+
+
+#first-gif{
+    width: 100%;
+    height: 400px;
+}
+.container{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    gap: 20px;
+    margin-top: 70px;
+    padding: 100px 10px 10px 10px;
+  
+
+}
+.main-quote{
+    color: rgb(227, 194, 87);
+    text-align: center;
+    font-size: 28px;
+    font-family: cursive;
+}
+#name{
+    width: 70%;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+}
+#nameBtn{
+    width: 70%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor:  pointer;
+    background-color: rgb(227, 194, 87);
+    color: rgb(25, 9, 60);
+
+}
