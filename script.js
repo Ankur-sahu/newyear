@@ -8,8 +8,6 @@ btn.addEventListener("click", () => {
     let getName = document.getElementById("name")
     mainSec.style.display = "none"
     secMainSec.style.display = "block"
-    setNme.innerHTML = `<div style="margin-left:10%;color:gold;">Dear <h1 style="color:#fff; id="userName">${getName.value}</h1></div>
-    <p style="margin-left:10%;color:gold;">Each year I spend with you is the best one yet! Here’s to making more memories in 2023.</p>
-                        `
+    setNme.innerHTML = `<div style="margin-left:10%;color:gold;">Dear <h1 style="color:#fff; id="userName">${getName.value}</h1></div>`
     
 })
