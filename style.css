@@ -66,6 +66,15 @@
     color: gold;
     margin-bottom: 20px;
 }
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
 #share{
     background: #25D366;
     color: #fff;
