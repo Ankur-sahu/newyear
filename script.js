@@ -12,13 +12,17 @@ btn.addEventListener("click", () => {
     
 })
 
+let share =document.getElementById("share");
+share.addEventListener('click',()=>{
+    alert("hi")
+})
 
-function share() {   
-    // collet the user input   
-//    var message = $("input[name=message]").val();   
-var message = 'hello'
-            // JavaScript function to open URL in new window   
-            // alert("hello") 
-    window.open( "whatsapp://send?text=" + message, '_blank');  
+// function share() {   
+//     // collet the user input   
+// //    var message = $("input[name=message]").val();   
+//             var message = 'hello'
+//             // JavaScript function to open URL in new window   
+//             alert("hello") 
+//     window.open( "whatsapp://send?text=" + message, '_blank');  
     
-}
+// }
