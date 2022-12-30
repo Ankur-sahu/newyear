@@ -11,3 +11,14 @@ btn.addEventListener("click", () => {
     setNme.innerHTML = `<div style="margin-left:10%;color:gold;">Dear <h1 style="color:#fff; id="userName">${getName.value}</h1></div>`
     
 })
+
+
+function share() {   
+    // collet the user input   
+//    var message = $("input[name=message]").val();   
+var message = 'hello'
+            // JavaScript function to open URL in new window   
+            // alert("hello") 
+    window.open( "whatsapp://send?text=" + message, '_blank');  
+    
+}
