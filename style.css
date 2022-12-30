@@ -27,11 +27,11 @@
 .second-main{
     width: 100%;
     max-width: 400px;
-    display: block;
+    display: none;
     border: 2px solid rebeccapurple;
     position: relative;
     height: 100vh;
-    /* display: flex;
+    /* display: none;
     justify-content: center; */
     /* background-image: url('https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNDUwLXBsb3ktMDJjLTAxXzMuanBn.jpg'); */
     background-color: rgb(31, 30, 30);
