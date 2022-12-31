@@ -22,6 +22,6 @@ btn.addEventListener("click", () => {
 const button = document.getElementById('share-button');
 
 button.addEventListener('click', () => {
-       window.open('https://api.whatsapp.com/send?text=https://squad8newyear2023.netlify.app');
+       window.open('https://api.whatsapp.com/send?text=Hey,%20 I%20have%20created%20something%20for%20you%20click%20here https://squad8newyear2023.netlify.app');
 });
 
